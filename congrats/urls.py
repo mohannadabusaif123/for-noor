@@ -19,5 +19,5 @@ from noor import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', )
+    path('', views.index, name="index")
 ]
