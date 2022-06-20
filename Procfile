@@ -1,1 +1,1 @@
-web: gunicorn for-noor.wsgi --log-file -
+web: gunicorn congrats.wsgi --log-file -
